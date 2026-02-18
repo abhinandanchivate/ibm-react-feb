@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.4.0" pages="6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.4.0" pages="8">
   <diagram name="Page-1" id="YnaCclZ0Ge-TVavChaxM">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -382,6 +382,118 @@
         <mxCell id="1" parent="0" />
         <mxCell id="hq1fKw-jdQvIA0ZL7xBa-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=23;" value="Form Handling : Register Form :&lt;div&gt;1. component&amp;nbsp;&lt;/div&gt;&lt;div&gt;2. need html part for our form&lt;/div&gt;&lt;div&gt;3. we need to maintain the state of the form --&amp;gt; we need to hold the data from the form to perform the next rest call / further action.&lt;/div&gt;&lt;div&gt;4. on Submit event --&amp;gt; we will peerform rest call.&lt;/div&gt;&lt;div&gt;5. rest call stuff ---&amp;gt; we will write it in a service&lt;/div&gt;&lt;div&gt;a. success : we will move the user to Dashboard&lt;/div&gt;&lt;div&gt;b. failure : over the form with error details(validation details)&lt;/div&gt;&lt;div&gt;6. on Change event.&lt;/div&gt;" vertex="1">
           <mxGeometry height="600" width="600" x="220" y="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="dFCA-nRMYvAiBHzo9I1R" name="Page-7">
+    <mxGraphModel dx="2276" dy="824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="b2D2AB-RNSnDMZ4d4W0o-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="510" width="580" x="170" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="b2D2AB-RNSnDMZ4d4W0o-5" edge="1" parent="1" source="b2D2AB-RNSnDMZ4d4W0o-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="b2D2AB-RNSnDMZ4d4W0o-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b2D2AB-RNSnDMZ4d4W0o-8" edge="1" parent="1" source="b2D2AB-RNSnDMZ4d4W0o-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="b2D2AB-RNSnDMZ4d4W0o-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b2D2AB-RNSnDMZ4d4W0o-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=23;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="state&lt;div&gt;registerForm&lt;/div&gt;" vertex="1">
+          <mxGeometry height="180" width="130" x="180" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="b2D2AB-RNSnDMZ4d4W0o-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=23;" value="Form&lt;div&gt;elements like input&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="400" width="270" x="460" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="b2D2AB-RNSnDMZ4d4W0o-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;rounded=0;fontSize=21;" value="component" vertex="1">
+          <mxGeometry height="30" width="120" x="215" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="b2D2AB-RNSnDMZ4d4W0o-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;rounded=0;fontSize=21;" value="value attribute from input" vertex="1">
+          <mxGeometry height="80" width="120" x="320" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="b2D2AB-RNSnDMZ4d4W0o-10" edge="1" parent="1" source="b2D2AB-RNSnDMZ4d4W0o-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="b2D2AB-RNSnDMZ4d4W0o-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b2D2AB-RNSnDMZ4d4W0o-12" edge="1" parent="1" source="b2D2AB-RNSnDMZ4d4W0o-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="b2D2AB-RNSnDMZ4d4W0o-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b2D2AB-RNSnDMZ4d4W0o-7" parent="1" style="whiteSpace=wrap;html=1;fontSize=23;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" value="states are immutable in nature." vertex="1">
+          <mxGeometry height="80" width="245" x="-150" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="b2D2AB-RNSnDMZ4d4W0o-9" parent="1" style="whiteSpace=wrap;html=1;fontSize=23;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" value="but we want to hold the updated / new values in the state" vertex="1">
+          <mxGeometry height="190" width="120" x="-87.5" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="b2D2AB-RNSnDMZ4d4W0o-14" edge="1" parent="1" source="b2D2AB-RNSnDMZ4d4W0o-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="b2D2AB-RNSnDMZ4d4W0o-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b2D2AB-RNSnDMZ4d4W0o-11" parent="1" style="whiteSpace=wrap;html=1;fontSize=23;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" value="setter method" vertex="1">
+          <mxGeometry height="60" width="120" x="-412.5" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="b2D2AB-RNSnDMZ4d4W0o-16" edge="1" parent="1" source="b2D2AB-RNSnDMZ4d4W0o-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="b2D2AB-RNSnDMZ4d4W0o-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b2D2AB-RNSnDMZ4d4W0o-13" parent="1" style="whiteSpace=wrap;html=1;fontSize=23;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" value="used to modify or update the state values this is the only way to modify the state data." vertex="1">
+          <mxGeometry height="230" width="142.5" x="-412.5" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="b2D2AB-RNSnDMZ4d4W0o-15" parent="1" style="whiteSpace=wrap;html=1;fontSize=23;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" value="we should call setter method inside the onchange to perform modification." vertex="1">
+          <mxGeometry height="195" width="261.25" x="-401.25" y="885" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="zcHNiijhtSNK4JxT1U9s" name="Page-8">
+    <mxGraphModel dx="946" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YUsdT9XvyX582esfCYa1-3" edge="1" parent="1" source="YUsdT9XvyX582esfCYa1-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=22;" target="YUsdT9XvyX582esfCYa1-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YUsdT9XvyX582esfCYa1-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" value="FORM" vertex="1">
+          <mxGeometry height="190" width="370" x="260" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YUsdT9XvyX582esfCYa1-5" edge="1" parent="1" source="YUsdT9XvyX582esfCYa1-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=22;" target="YUsdT9XvyX582esfCYa1-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YUsdT9XvyX582esfCYa1-2" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fontSize=22;" value="onSubmit" vertex="1">
+          <mxGeometry height="60" width="120" x="385" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="YUsdT9XvyX582esfCYa1-7" edge="1" parent="1" source="YUsdT9XvyX582esfCYa1-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=22;" target="YUsdT9XvyX582esfCYa1-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YUsdT9XvyX582esfCYa1-16" edge="1" parent="1" source="YUsdT9XvyX582esfCYa1-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="YUsdT9XvyX582esfCYa1-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YUsdT9XvyX582esfCYa1-4" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fontSize=22;" value="services" vertex="1">
+          <mxGeometry height="60" width="120" x="385" y="535" as="geometry" />
+        </mxCell>
+        <mxCell id="YUsdT9XvyX582esfCYa1-11" edge="1" parent="1" source="YUsdT9XvyX582esfCYa1-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=22;" target="YUsdT9XvyX582esfCYa1-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YUsdT9XvyX582esfCYa1-18" edge="1" parent="1" source="YUsdT9XvyX582esfCYa1-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="YUsdT9XvyX582esfCYa1-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YUsdT9XvyX582esfCYa1-6" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fontSize=22;" value="axios call" vertex="1">
+          <mxGeometry height="60" width="120" x="385" y="675" as="geometry" />
+        </mxCell>
+        <mxCell id="YUsdT9XvyX582esfCYa1-13" edge="1" parent="1" source="YUsdT9XvyX582esfCYa1-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=22;" target="YUsdT9XvyX582esfCYa1-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YUsdT9XvyX582esfCYa1-10" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fontSize=22;" value="Backend api" vertex="1">
+          <mxGeometry height="60" width="120" x="385" y="815" as="geometry" />
+        </mxCell>
+        <mxCell id="YUsdT9XvyX582esfCYa1-12" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=22;" value="DB" vertex="1">
+          <mxGeometry height="80" width="60" x="415" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="YUsdT9XvyX582esfCYa1-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" value="COmplete Rest flow for BFF&lt;div&gt;(Backend for FE&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="180" x="10" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="YUsdT9XvyX582esfCYa1-15" parent="1" style="whiteSpace=wrap;html=1;fontSize=22;rounded=1;" value="front end" vertex="1">
+          <mxGeometry height="60" width="120" x="585" y="535" as="geometry" />
+        </mxCell>
+        <mxCell id="YUsdT9XvyX582esfCYa1-17" parent="1" style="whiteSpace=wrap;html=1;fontSize=22;rounded=1;" value="to perform the rest call." vertex="1">
+          <mxGeometry height="60" width="185" x="585" y="675" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
