@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.0" pages="12">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.2" pages="13">
   <diagram name="Page-1" id="YnaCclZ0Ge-TVavChaxM">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1030,6 +1030,101 @@
         </mxCell>
         <mxCell id="zbtPXTawjXTLEwjAL04W-16" parent="1" style="whiteSpace=wrap;html=1;fontSize=19;rounded=1;" value="do we need to access it from the store." vertex="1">
           <mxGeometry height="60" width="270" x="705" y="1430" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="N4k8maG7txKEX0qbJtvB" name="Page-13">
+    <mxGraphModel dx="1426" dy="824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_u8F6pvCrEqYninl-Psd-3" edge="1" parent="1" source="_u8F6pvCrEqYninl-Psd-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_u8F6pvCrEqYninl-Psd-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_u8F6pvCrEqYninl-Psd-5" edge="1" parent="1" source="_u8F6pvCrEqYninl-Psd-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_u8F6pvCrEqYninl-Psd-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_u8F6pvCrEqYninl-Psd-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=23;" value="create profile form" vertex="1">
+          <mxGeometry height="60" width="300" x="300" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_u8F6pvCrEqYninl-Psd-2" parent="1" style="whiteSpace=wrap;html=1;fontSize=23;rounded=1;" value="add&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="_u8F6pvCrEqYninl-Psd-7" edge="1" parent="1" source="_u8F6pvCrEqYninl-Psd-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_u8F6pvCrEqYninl-Psd-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_u8F6pvCrEqYninl-Psd-4" parent="1" style="whiteSpace=wrap;html=1;fontSize=23;rounded=1;" value="update form as well" vertex="1">
+          <mxGeometry height="110" width="130" x="640" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="_u8F6pvCrEqYninl-Psd-9" edge="1" parent="1" source="_u8F6pvCrEqYninl-Psd-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_u8F6pvCrEqYninl-Psd-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_u8F6pvCrEqYninl-Psd-6" parent="1" style="whiteSpace=wrap;html=1;fontSize=23;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" value="I want to see a title called edit my profile instead of create my profile" vertex="1">
+          <mxGeometry height="195" width="215" x="597.5" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="_u8F6pvCrEqYninl-Psd-11" edge="1" parent="1" source="_u8F6pvCrEqYninl-Psd-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_u8F6pvCrEqYninl-Psd-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_u8F6pvCrEqYninl-Psd-8" parent="1" style="whiteSpace=wrap;html=1;fontSize=23;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;" value="over the form we need to take a judgement&amp;nbsp;" vertex="1">
+          <mxGeometry height="182.5" width="190" x="270" y="506.25" as="geometry" />
+        </mxCell>
+        <mxCell id="_u8F6pvCrEqYninl-Psd-13" edge="1" parent="1" source="_u8F6pvCrEqYninl-Psd-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_u8F6pvCrEqYninl-Psd-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_u8F6pvCrEqYninl-Psd-10" parent="1" style="whiteSpace=wrap;html=1;fontSize=23;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;" value="are we coming from create / edit link" vertex="1">
+          <mxGeometry height="130" width="145" x="292.5" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="_u8F6pvCrEqYninl-Psd-15" edge="1" parent="1" source="_u8F6pvCrEqYninl-Psd-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_u8F6pvCrEqYninl-Psd-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_u8F6pvCrEqYninl-Psd-12" parent="1" style="whiteSpace=wrap;html=1;fontSize=23;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;" value="based on above cond we will make it rt label via useMatch" vertex="1">
+          <mxGeometry height="145" width="175" x="277.5" y="1075" as="geometry" />
+        </mxCell>
+        <mxCell id="_u8F6pvCrEqYninl-Psd-17" edge="1" parent="1" source="_u8F6pvCrEqYninl-Psd-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_u8F6pvCrEqYninl-Psd-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_u8F6pvCrEqYninl-Psd-14" parent="1" style="whiteSpace=wrap;html=1;fontSize=23;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" value="if i am going to follow edit profile then we should see the current profile details over the form in a filled way" vertex="1">
+          <mxGeometry height="207.5" width="245" x="242.5" y="1330" as="geometry" />
+        </mxCell>
+        <mxCell id="_u8F6pvCrEqYninl-Psd-16" parent="1" style="whiteSpace=wrap;html=1;fontSize=23;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" value="on the loading of component we need to fetch teh details from the backend . we have to get current users profile." vertex="1">
+          <mxGeometry height="188.75" width="275" x="227.5" y="1670" as="geometry" />
+        </mxCell>
+        <mxCell id="_u8F6pvCrEqYninl-Psd-20" edge="1" parent="1" source="_u8F6pvCrEqYninl-Psd-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_u8F6pvCrEqYninl-Psd-19" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_u8F6pvCrEqYninl-Psd-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" value="useMatch status" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="1970" as="geometry" />
+        </mxCell>
+        <mxCell id="_u8F6pvCrEqYninl-Psd-22" edge="1" parent="1" source="_u8F6pvCrEqYninl-Psd-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_u8F6pvCrEqYninl-Psd-21" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_u8F6pvCrEqYninl-Psd-24" edge="1" parent="1" source="_u8F6pvCrEqYninl-Psd-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_u8F6pvCrEqYninl-Psd-23" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_u8F6pvCrEqYninl-Psd-19" parent="1" style="whiteSpace=wrap;html=1;fontSize=20;rounded=1;" value="isCreate" vertex="1">
+          <mxGeometry height="60" width="120" x="420" y="1970" as="geometry" />
+        </mxCell>
+        <mxCell id="_u8F6pvCrEqYninl-Psd-28" edge="1" parent="1" source="_u8F6pvCrEqYninl-Psd-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_u8F6pvCrEqYninl-Psd-27" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_u8F6pvCrEqYninl-Psd-21" parent="1" style="whiteSpace=wrap;html=1;fontSize=20;rounded=1;" value="can i take a call to whether to get the details from the backend&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="270" x="620" y="1960" as="geometry" />
+        </mxCell>
+        <mxCell id="_u8F6pvCrEqYninl-Psd-26" edge="1" parent="1" source="_u8F6pvCrEqYninl-Psd-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_u8F6pvCrEqYninl-Psd-25" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_u8F6pvCrEqYninl-Psd-23" parent="1" style="whiteSpace=wrap;html=1;fontSize=20;rounded=1;" value="shall i access profile reducer . profile&amp;nbsp;" vertex="1">
+          <mxGeometry height="70" width="230" x="365" y="2110" as="geometry" />
+        </mxCell>
+        <mxCell id="_u8F6pvCrEqYninl-Psd-25" parent="1" style="whiteSpace=wrap;html=1;fontSize=20;rounded=1;" value="as per the navigation u will come from dashboard to profile.&amp;nbsp; over the dashboard we have already performed a rest call&amp;nbsp;" vertex="1">
+          <mxGeometry height="135" width="360" x="730" y="2115" as="geometry" />
+        </mxCell>
+        <mxCell id="_u8F6pvCrEqYninl-Psd-27" parent="1" style="whiteSpace=wrap;html=1;fontSize=20;rounded=1;" value="to get the profile object" vertex="1">
+          <mxGeometry height="60" width="120" x="1180" y="2130" as="geometry" />
+        </mxCell>
+        <mxCell id="_u8F6pvCrEqYninl-Psd-29" edge="1" parent="1" source="_u8F6pvCrEqYninl-Psd-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.008;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" target="_u8F6pvCrEqYninl-Psd-27">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
