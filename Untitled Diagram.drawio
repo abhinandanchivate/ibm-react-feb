@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.2" pages="13">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.2" pages="14">
   <diagram name="Page-1" id="YnaCclZ0Ge-TVavChaxM">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1125,6 +1125,41 @@
         </mxCell>
         <mxCell id="_u8F6pvCrEqYninl-Psd-29" edge="1" parent="1" source="_u8F6pvCrEqYninl-Psd-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.008;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" target="_u8F6pvCrEqYninl-Psd-27">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="HphzmzzbWMpEcnHbktDh" name="Page-14">
+    <mxGraphModel dx="1426" dy="824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="baM3FUF5p44oaKC-CrG5-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="430" width="500" x="190" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="baM3FUF5p44oaKC-CrG5-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="100" width="340" x="270" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="baM3FUF5p44oaKC-CrG5-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="100" width="340" x="270" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="baM3FUF5p44oaKC-CrG5-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="290" x="290" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="baM3FUF5p44oaKC-CrG5-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="290" x="290" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="baM3FUF5p44oaKC-CrG5-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="290" x="295" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="baM3FUF5p44oaKC-CrG5-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="290" x="295" y="485" as="geometry" />
+        </mxCell>
+        <mxCell id="baM3FUF5p44oaKC-CrG5-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Welcome message" vertex="1">
+          <mxGeometry height="30" width="60" x="280" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="baM3FUF5p44oaKC-CrG5-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;rounded=0;" value="how many components we need to create here ? 5" vertex="1">
+          <mxGeometry height="30" width="200" x="370" y="590" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
