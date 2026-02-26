@@ -1161,6 +1161,48 @@
         <mxCell id="baM3FUF5p44oaKC-CrG5-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;rounded=0;" value="how many components we need to create here ? 5" vertex="1">
           <mxGeometry height="30" width="200" x="370" y="590" as="geometry" />
         </mxCell>
+        <mxCell id="baM3FUF5p44oaKC-CrG5-12" edge="1" parent="1" source="baM3FUF5p44oaKC-CrG5-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="baM3FUF5p44oaKC-CrG5-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="baM3FUF5p44oaKC-CrG5-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Dahsboard was performing the getting profile call." vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="baM3FUF5p44oaKC-CrG5-14" edge="1" parent="1" source="baM3FUF5p44oaKC-CrG5-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="baM3FUF5p44oaKC-CrG5-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="baM3FUF5p44oaKC-CrG5-11" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="profile data is available with dashboard and it includes exp details&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="baM3FUF5p44oaKC-CrG5-16" edge="1" parent="1" source="baM3FUF5p44oaKC-CrG5-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="baM3FUF5p44oaKC-CrG5-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="baM3FUF5p44oaKC-CrG5-13" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="do we need to share it with exp comp" vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="baM3FUF5p44oaKC-CrG5-15" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="one by one exp details will share it with exp row." vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="baM3FUF5p44oaKC-CrG5-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="redux" vertex="1">
+          <mxGeometry height="30" width="60" x="400" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="baM3FUF5p44oaKC-CrG5-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="props" vertex="1">
+          <mxGeometry height="30" width="60" x="580" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="baM3FUF5p44oaKC-CrG5-21" edge="1" parent="1" source="baM3FUF5p44oaKC-CrG5-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="baM3FUF5p44oaKC-CrG5-20" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="baM3FUF5p44oaKC-CrG5-23" edge="1" parent="1" source="baM3FUF5p44oaKC-CrG5-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="baM3FUF5p44oaKC-CrG5-22" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="baM3FUF5p44oaKC-CrG5-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="smart comp and dumb comp." vertex="1">
+          <mxGeometry height="60" width="120" x="460" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="baM3FUF5p44oaKC-CrG5-20" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="smart : able to perform BL activities . Decision making." vertex="1">
+          <mxGeometry height="60" width="120" x="660" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="baM3FUF5p44oaKC-CrG5-22" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="dumb is used to render the data or accept the data no processing." vertex="1">
+          <mxGeometry height="60" width="120" x="460" y="1160" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
