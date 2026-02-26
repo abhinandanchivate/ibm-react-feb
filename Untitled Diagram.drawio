@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.2" pages="14">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.3" pages="15">
   <diagram name="Page-1" id="YnaCclZ0Ge-TVavChaxM">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1202,6 +1202,56 @@
         </mxCell>
         <mxCell id="baM3FUF5p44oaKC-CrG5-22" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="dumb is used to render the data or accept the data no processing." vertex="1">
           <mxGeometry height="60" width="120" x="460" y="1160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="eT96js19uhuDaZfCou_p" name="Page-15">
+    <mxGraphModel dx="1426" dy="824" grid="1" gridSize="27" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fsku2KHI2xNRw8y_QXL4-3" edge="1" parent="1" source="fsku2KHI2xNRw8y_QXL4-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="fsku2KHI2xNRw8y_QXL4-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fsku2KHI2xNRw8y_QXL4-11" edge="1" parent="1" source="fsku2KHI2xNRw8y_QXL4-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="fsku2KHI2xNRw8y_QXL4-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fsku2KHI2xNRw8y_QXL4-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" value="render current profile" vertex="1">
+          <mxGeometry height="54" width="324" x="108" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="fsku2KHI2xNRw8y_QXL4-5" edge="1" parent="1" source="fsku2KHI2xNRw8y_QXL4-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="fsku2KHI2xNRw8y_QXL4-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fsku2KHI2xNRw8y_QXL4-2" parent="1" style="whiteSpace=wrap;html=1;fontSize=18;rounded=1;" value="1. do we have any end point for the same ?&amp;nbsp; yes implemented" vertex="1">
+          <mxGeometry height="112" width="222" x="159" y="266" as="geometry" />
+        </mxCell>
+        <mxCell id="fsku2KHI2xNRw8y_QXL4-7" edge="1" parent="1" source="fsku2KHI2xNRw8y_QXL4-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="fsku2KHI2xNRw8y_QXL4-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fsku2KHI2xNRw8y_QXL4-4" parent="1" style="whiteSpace=wrap;html=1;fontSize=18;rounded=1;" value="service&amp;nbsp;&lt;br&gt;action&lt;br&gt;slice part&amp;nbsp;" vertex="1">
+          <mxGeometry height="83" width="120" x="210" y="484" as="geometry" />
+        </mxCell>
+        <mxCell id="fsku2KHI2xNRw8y_QXL4-9" edge="1" parent="1" source="fsku2KHI2xNRw8y_QXL4-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="fsku2KHI2xNRw8y_QXL4-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fsku2KHI2xNRw8y_QXL4-6" parent="1" style="whiteSpace=wrap;html=1;fontSize=18;rounded=1;" value="we have to call the action here&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="658.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fsku2KHI2xNRw8y_QXL4-8" parent="1" style="whiteSpace=wrap;html=1;fontSize=18;rounded=1;" value="we have to access the current profile&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="798.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fsku2KHI2xNRw8y_QXL4-10" parent="1" style="whiteSpace=wrap;html=1;fontSize=18;rounded=1;" value="over the click&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="614" y="132" as="geometry" />
+        </mxCell>
+        <mxCell id="fsku2KHI2xNRw8y_QXL4-14" edge="1" parent="1" source="fsku2KHI2xNRw8y_QXL4-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="fsku2KHI2xNRw8y_QXL4-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fsku2KHI2xNRw8y_QXL4-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="/:id" vertex="1">
+          <mxGeometry height="60" width="120" x="135" y="918" as="geometry" />
+        </mxCell>
+        <mxCell id="fsku2KHI2xNRw8y_QXL4-13" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="router" vertex="1">
+          <mxGeometry height="60" width="120" x="335" y="918" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
