@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.3" pages="15">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.4" pages="16">
   <diagram name="Page-1" id="YnaCclZ0Ge-TVavChaxM">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -949,7 +949,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="a2zvDUEdVzw41e-1K_py" name="dashboard">
-    <mxGraphModel dx="1426" dy="824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1030,6 +1030,27 @@
         </mxCell>
         <mxCell id="zbtPXTawjXTLEwjAL04W-16" parent="1" style="whiteSpace=wrap;html=1;fontSize=19;rounded=1;" value="do we need to access it from the store." vertex="1">
           <mxGeometry height="60" width="270" x="705" y="1430" as="geometry" />
+        </mxCell>
+        <mxCell id="3XN9Z88ciqz0jgd0aTKn-3" edge="1" parent="1" source="3XN9Z88ciqz0jgd0aTKn-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="3XN9Z88ciqz0jgd0aTKn-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3XN9Z88ciqz0jgd0aTKn-5" edge="1" parent="1" source="3XN9Z88ciqz0jgd0aTKn-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="3XN9Z88ciqz0jgd0aTKn-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3XN9Z88ciqz0jgd0aTKn-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="2. oopitons to move user to dashboard" vertex="1">
+          <mxGeometry height="60" width="120" x="230" y="1640" as="geometry" />
+        </mxCell>
+        <mxCell id="3XN9Z88ciqz0jgd0aTKn-7" edge="1" parent="1" source="3XN9Z88ciqz0jgd0aTKn-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="3XN9Z88ciqz0jgd0aTKn-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3XN9Z88ciqz0jgd0aTKn-2" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="managing via isAuthentication status" vertex="1">
+          <mxGeometry height="60" width="120" x="20" y="1750" as="geometry" />
+        </mxCell>
+        <mxCell id="3XN9Z88ciqz0jgd0aTKn-4" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="via middleware specs via RTK" vertex="1">
+          <mxGeometry height="60" width="120" x="440" y="1750" as="geometry" />
+        </mxCell>
+        <mxCell id="3XN9Z88ciqz0jgd0aTKn-6" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="to move the user to dashboard" vertex="1">
+          <mxGeometry height="60" width="120" x="20" y="1890" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -1252,6 +1273,53 @@
         </mxCell>
         <mxCell id="fsku2KHI2xNRw8y_QXL4-13" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="router" vertex="1">
           <mxGeometry height="60" width="120" x="335" y="918" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="3qqG2ituGhLU2Qb0qyrV" name="extra reducer and RTK">
+    <mxGraphModel dx="1426" dy="824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qGg6lUcaHTxb6glW9lCJ-3" edge="1" parent="1" source="qGg6lUcaHTxb6glW9lCJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qGg6lUcaHTxb6glW9lCJ-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qGg6lUcaHTxb6glW9lCJ-5" edge="1" parent="1" source="qGg6lUcaHTxb6glW9lCJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qGg6lUcaHTxb6glW9lCJ-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qGg6lUcaHTxb6glW9lCJ-7" edge="1" parent="1" source="qGg6lUcaHTxb6glW9lCJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qGg6lUcaHTxb6glW9lCJ-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qGg6lUcaHTxb6glW9lCJ-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="to perform the rest call then it will come across with 3 situations" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qGg6lUcaHTxb6glW9lCJ-9" edge="1" parent="1" source="qGg6lUcaHTxb6glW9lCJ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qGg6lUcaHTxb6glW9lCJ-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qGg6lUcaHTxb6glW9lCJ-2" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="pending" vertex="1">
+          <mxGeometry height="60" width="120" x="90" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="qGg6lUcaHTxb6glW9lCJ-11" edge="1" parent="1" source="qGg6lUcaHTxb6glW9lCJ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qGg6lUcaHTxb6glW9lCJ-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qGg6lUcaHTxb6glW9lCJ-4" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="success/ fulfilled" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="qGg6lUcaHTxb6glW9lCJ-13" edge="1" parent="1" source="qGg6lUcaHTxb6glW9lCJ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qGg6lUcaHTxb6glW9lCJ-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qGg6lUcaHTxb6glW9lCJ-6" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="failure/rejected" vertex="1">
+          <mxGeometry height="60" width="120" x="440" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="qGg6lUcaHTxb6glW9lCJ-8" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="u have initiated the rest call." vertex="1">
+          <mxGeometry height="60" width="120" x="90" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="qGg6lUcaHTxb6glW9lCJ-10" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="we will have sucess ful rest call." vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="qGg6lUcaHTxb6glW9lCJ-12" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="failure in rest call i.e. errors." vertex="1">
+          <mxGeometry height="60" width="120" x="440" y="380" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
